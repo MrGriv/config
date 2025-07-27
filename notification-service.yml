@@ -32,3 +32,8 @@ email-from: iv4nrut@yandex.ru
 texts:
   add: Здравствуйте! Ваш аккаунт на сайте ваш сайт был успешно создан.
   delete: Здравствуйте! Ваш аккаунт был удалён.
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://service-discovery:8761/eureka
