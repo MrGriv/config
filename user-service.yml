@@ -2,8 +2,6 @@ server:
   port: 8081
 
 spring:
-  kafka:
-    bootstrap-servers: kafka:9092
   datasource:
     driver-class-name: org.postgresql.Driver
     url: jdbc:postgresql://db:5432/users
